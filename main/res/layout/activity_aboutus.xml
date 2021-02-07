@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="213dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="328dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Logout"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Digimon"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="108dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Digimon"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Home"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AboutUs"
+        android:layout_width="91dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="216dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="About Us"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/box2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="372dp"
+        android:text="DigiNHunter"
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="484dp"
+        android:text="segala keperluan digimonnya dan "
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="512dp"
+        android:text="pelanggan dapat membawa digimon"
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="416dp"
+        android:text="DigiNHunter adalah Toko yang menjual "
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="548dp"
+        android:text="mereka untuk dilatih oleh kami."
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="452dp"
+        android:text="digimon. Pembeli dapat membeli "
+        android:textColor="#333333"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

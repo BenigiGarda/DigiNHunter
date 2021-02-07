@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="320dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:textColor="#F59123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Digimon"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="108dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Digimon"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="90dp"
+        android:layout_height="65dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="Home"
+        android:textColor="#F59123"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/AboutUs"
+        android:layout_width="91dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="216dp"
+        android:background="#0000FF"
+        android:backgroundTint="#0000FF"
+        android:fontFamily="@font/impact"
+        android:text="About Us"
+        android:textSize="20sp"
+        android:textColor="#F59123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="72dp"
+        android:background="#FFFFFF"
+        android:text="List of Membership Type"
+        android:textColor="#333333"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="332dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:background="#0000FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Logout"
+        app:tabIndicator="@color/colorPrimaryDark"
+        app:tabIndicatorColor="#0000FF"
+        app:tabTextAppearance="@style/AppTheme"
+        app:tabTextColor="#ECA88D">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bronze" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Silver" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Pager"
+        android:layout_width="332dp"
+        android:layout_height="318dp"
+        android:layout_marginStart="32dp"
+        android:background="#80FFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
